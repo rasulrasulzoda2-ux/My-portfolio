@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое Портфолио | Разработчик</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Мое Портфолио</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Герой секция -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Привет, я <span class="highlight">Расул</span></h1>
+            <p>Full-Stack разработчик & Unity Game Developer</p>
+            <p class="hero-description">Создаю современные веб-сайты и увлекательные игры</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Смотреть проекты</a>
+                <a href="#contact" class="btn btn-secondary">Связаться со мной</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Мои проекты</h2>
+            
+            <!-- Проект 1: Игра -->
+            <div class="project-card">
+                <div class="project-media">
+                    <div class="video-container">
+                        <!-- ссылка на видео в youtube -->
+                        <iframe src="youtube.com" 
+                                frameborder="0" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>🎮 Cosmic Defender</h3>
+                    <p class="project-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">3D</span>
+                    </p>
+                    <p>Захватывающий 3D шутер с продвинутой системой противников и красивой графикой.</p>
+                    
+                    <div class="project-features">
+                        <h4>Что я реализовал:</h4>
+                        <ul>
+                            <li>Программирование геймплея на C#</li>
+                            <li>ИИ противников и система патрулирования</li>
+                            <li>Система улучшений и прокачки</li>
+                            <li>Оптимизация производительности</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="/webgl-builds/" class="btn btn-primary" target="_blank">
+                            🎮 Играть онлайн
+                        </a>
+                        <a href="/assets/downloads/" class="btn btn-secondary" download>
+                            📥 Скачать для Windows
+                        </a>
+                        <a href="https://github.com/" class="btn btn-outline" target="_blank">
+                            💻 Исходный код
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Проект 2: Веб-сайт -->
+            <div class="project-card">
+                <div class="project-media">
+                    <img src="/assets/images/project1.jpg" alt="Скриншот веб-сайта" class="project-image">
+                </div>
+                <div class="project-content">
+                    <h3>🌐 Сайт для изучения английского</h3>
+                    <p class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </p>
+                    <p>Полнофункциональная обучающая платформа со словарём, правилами граматики и тестами</p>
+                    
+                    <div class="project-features">
+                        <h4>Функциональность:</h4>
+                        <ul>
+                            <li>Полезные тесты для проверки своих знаний</li>
+                            <li>Красивый словать в виде карточек</li>
+                            <li>Таблица лидеров в тестах</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://myeng.netlify.app/" class="btn btn-primary" target="_blank">
+                            🌐 Открыть сайт
+                        </a>
+                        <a href="https://github.com/" class="btn btn-outline" target="_blank">
+                            💻 Исходный код
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Я новичок в создании сайтов и игр, но это не мешает мне мне активно развиватся самостоятельно благодаря большому окличеству образовательного материала в интернете.</p>
+                    
+                    <h3>Навыки</h3>
+                    <div class="skills">
+                        <div class="skill-category">
+                            <h4>Веб-разработка</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">CSS</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Game Development</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Unity</span>
+                                <span class="skill-tag">C#</span>
+                                <span class="skill-tag">Game Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contact-content">
+                <p>Готов к новым проектам и сотрудничеству!</p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-link">
+                        📧 rasulrasulzoda2@gmail.com
+                    </a>
+                    <a href="https://github.com/yourname" class="contact-link" target="_blank">
+                        💻 GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Rasul's portfolio. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
